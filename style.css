@@ -1,0 +1,53 @@
+@media (min-width: 600px) {
+    h1::before {
+        content: "Hello, World! Welcome to ";
+    }
+}
+
+@media (max-width: 599px) {
+    h1::before {
+        content: "Welcome to ";
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Images are Rounded*/
+img {
+    border-radius: 60%;
+    width:25%;
+}
+
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    table-layout: fixed;
+    text-align: center;
+    align: center;
+}
+
+#description {
+  text-align: left;
+}
