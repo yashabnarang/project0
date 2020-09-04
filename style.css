@@ -1,53 +1,57 @@
-@media (min-width: 600px) {
-    h1::before {
-        content: "Hello, World! Welcome to ";
-    }
-}
-
-@media (max-width: 599px) {
-    h1::before {
-        content: "Welcome to ";
-    }
-}
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+body {
+  color: #EEF8FF;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+input[type=text] {
+  border-radius:50px;
+  border-width:1px;
+  border-color:lightgray;
+  border-style:solid;
+  height:40px;
+  width:575px;
+  outline:none;
+}
+
+input[type=submit] {
+  border-radius: 4px;
+  border-color:white;
+  border-style: none;
+  color: gray;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+input[type=submit]:hover {
+  border-color:gray;
+  color: black;
+  box-shadow: 0 0 0.25pt 0.25pt gray;
+}
+
 div {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  text-align: right;
 }
 
-ul {
-    display: table;
-    margin: 0 auto;
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-/* Images are Rounded*/
-img {
-    border-radius: 60%;
-    width:25%;
-}
-
-table {
-    border: 1px solid black;
-    table-layout: fixed;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
-    align: center;
-}
-
-th, td {
-    border: 1px solid black;
-    table-layout: fixed;
-    text-align: center;
-    align: center;
-}
-
-#description {
-  text-align: left;
+a:hover {
+  text-decoration: underline;
 }
