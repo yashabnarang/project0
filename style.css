@@ -1,15 +1,30 @@
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
   color: #EEF8FF;
-  margin-top: 25px;
+  margin-top: 0px;
   margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+h1 {
+  font-weight:normal;
+  font-size: 16px;
+  color:black;
+}
+
+#margin1 {
+	margin-left: 0px;
+}
+
+#margin2 {
+	margin-left: 45px;
+	text-align: left;
 }
 
 input[type=text] {
@@ -22,11 +37,18 @@ input[type=text] {
   outline:none;
 }
 
+th, td {
+  font-weight: normal;
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 input[type=submit] {
   border-radius: 4px;
   border-color:white;
   border-style: none;
-  color: gray;
+  color: #5F6368;
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -42,9 +64,85 @@ input[type=submit]:hover {
 
 div {
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   text-align: right;
 }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.simple{
+  margin-top: 13px;
+}
+
+.advanced {
+  font-family: "Arial", sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.5;
+  color: black;
+}
+
+.advancedgray {
+  font-family: "Arial", sans-serif;
+  font-size: 9.5pt;
+  color: black;
+  background-color:#F1F1F1;
+  padding-top:18px;
+  padding-bottom:27px;
+}
+
+#adv {
+  border-radius:0px;
+  border-width:1px;
+  border-color:lightgray;
+  border-style:solid;
+  height:25px;
+  width:350px;
+  outline:none;
+  display: inline-block;
+  margin-left: 80px;
+  vertical-align:middle
+}
+
+#bluebutton {
+	background-color: #4889F0;
+	color: white;
+}
+
+#as {
+  font-size:15pt;
+  color:#D93025;
+}
+
+#fp {
+  font-size:12pt;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallimg {
+  height: 31px;
+  width: auto;
+  float:left;
+  padding-left:15px;
+}
+
+.itext {
+  position: absolute;
+  color:#4285F4;
+  font-size:12pt;
+  top: 33%;
+  left: 55%;
+}
+
 
 a {
   color: black;

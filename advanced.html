@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+		<link rel="stylesheet" href="style.css">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+		<div id="margin1" class=advancedgray>
+			<img src="assets/googlelogo.svg" class="smallimg" alt="Google">
+			<a href="index.html">Search</a>
+			&nbsp;&nbsp;
+			<a href="images.html">Images</a>
+			&nbsp;&nbsp;
+		</div>
+		<div id="margin1" class=advanced style=text-align:left;>
+			<p id="as">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advanced Search</p>
+		</div><hr>
+		<div id="margin2">
+			<br><br><h1>Find pages with...</h1>
+			<form class=advanced action="https://google.com/search">
+				<table>
+					<tr>
+						<th><label>all these words:</label></th>
+						<th><input id="adv" type="text" name="as_q" /></th>
+					</tr>
+					<tr>
+						<th><label>this exact word or phrase:</label></th>
+						<th><input id="adv" type="text" name="as_epq" /></th>
+					</tr>
+					<tr>
+						<th><label>any of these words:</label></th>
+						<th><input id="adv" type="text" name="as_oq" /></th>
+					</tr>
+					<tr>
+						<th><label>none of these words:</label></th>
+						<th><input id="adv" type="text" name="as_eq" /></th>
+					</tr>
+				</table>
+				<input id="bluebutton" type="submit" value="Advanced Search" />
+			</form>
+		</div>
+	</body>
+</html>
